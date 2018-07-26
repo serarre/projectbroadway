@@ -13,7 +13,44 @@ body {
 
 .image {
   background-image: url("../images/flatiron.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 h1 {
   font-size: 70px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+}
+
+nav p {
+  font-size: 18px;
+}
+
+nav p a {
+  color: white;
+}
+
+footer {
+  text-align: left;
+  background-color: DimGray;
+}
+
+footer nav p {
+  display: inline;
+  font-size: 11px;
+}
+
+footer nav a {
+  color: white;
 }
